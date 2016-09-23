@@ -1,7 +1,10 @@
+// Flattens an array composed of any depth of nested arrays or other elements
 module.exports = function(arr) {
     var flattened = [];
 
+    // Recursive method to flatten an array
     var flatten = function(arr) {
+        // Base case
         if (! Array.isArray(arr)) {
             flattened = arr;
             return
@@ -9,6 +12,8 @@ module.exports = function(arr) {
 
         arr.forEach(function(element) {
             if (Array.isArray(element)) {
+
+                // Recursive call
                 flattened.concat(flatten(element))
             }
             else {
