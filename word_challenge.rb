@@ -58,7 +58,3 @@ end
 url = 'http://bit.ly/1jveLkY'
 filename = 'dictionary.txt'
 WordParser.new(url, filename).solve
-
-
-
-
