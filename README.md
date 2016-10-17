@@ -1,6 +1,4 @@
-# Everchron
-
-### Coding challenges for consideration of employment at Everchron
+# Playing with Node
 
 The following exercises have been completed:
 * [word_challenge](https://gist.github.com/codezomb/043e887356b188dae47a)
